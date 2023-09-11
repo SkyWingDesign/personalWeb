@@ -91,11 +91,13 @@ body {
     font-size: 2.4rem;
     color: var(--white-color);
     cursor: pointer;
+    display: none;
 }
 
 .header.sticky #darkMode-icon {
     color: var(--text-color);
     opacity: .9;
+    display: none;
 }
 
 #menu-icon {
@@ -116,6 +118,15 @@ section {
 
 }
 
+ .home .home-content .img{
+    display: none;
+ }
+ .home-content .img img{
+    display: none;
+ }
+ #x-icon{
+    display: none;
+ }
 .home .home-content {
     max-width: 44rem;
 }
