@@ -22,5 +22,8 @@ var swiper = new Swiper(".mySwiper",{
         el:".swiper-pagination",
         clickeble : true,
     },
-  
+   autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
 });
